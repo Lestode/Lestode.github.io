@@ -1,0 +1,134 @@
+/* font */
+ 
+
+@font-face
+{
+	font-family: Roboto_Slab;
+	src: url(RobotoSlab-VariableFont_wght.ttf);
+
+}
+
+/* allows the footer to stay at the end of the page, and not overlapping anything*/
+body
+{
+	position: relative;
+	min-height: 100vh;
+}
+
+#not_footer
+{
+	padding-bottom: 120px;
+}
+/* first part of the website*/
+
+#banner
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Roboto_Slab;
+	margin-bottom: 30px;
+}
+
+
+header 
+{
+	
+	width: 70%;
+	font-size: 1.4em;
+
+}
+
+
+/* Second part of the website */
+/*conserve for any article*/
+#main_page_articles
+{
+	font-family: Roboto_slab;
+	display: flex;
+
+}
+
+#short_bio
+{	
+	padding: 0.4em;
+	width: 30%;
+	border: 3px #678c96 solid;
+	height: auto;
+}
+
+.article
+{
+	position: relative;
+	width: 20%;
+	position: relative;
+	margin: 10px;
+	border: 3px black solid;
+}
+.titre_article
+{
+	position: absolute;
+	padding-top: 0.2em;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(128,128,128, 0.5);
+	text-decoration: none;
+	color: black;
+}
+		
+
+/* specific to the different articles*/
+#bientot_lausanne
+{
+	
+	background-image: url("EPFL-vue-aerienne.jpg");
+	background-size: cover;
+
+}
+
+#apprendre_allemand
+{
+	
+	background-image: url("zurich.jpg");
+	background-size: cover;
+
+}
+
+
+
+
+
+/*end of the page*/
+
+footer
+{ 
+	font-size: 1em;
+	background-color: #678c96;
+	padding: 6px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 50px;
+	min-width: 200px;
+	font-family: Roboto_slab;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

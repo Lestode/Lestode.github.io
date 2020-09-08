@@ -1,0 +1,87 @@
+@font-face
+{
+	font-family: Roboto_Slab;
+	src: url(RobotoSlab-VariableFont_wght.ttf);
+
+}
+/* allows the footer to stay at the end of the page, and not overlapping anything*/
+body
+{
+	position: relative;
+	min-height: 100vh;
+}
+
+#not_footer
+{
+	padding-bottom: 120px;
+}
+
+/* first part of the page*/
+
+#banner
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Roboto_Slab;
+	margin-bottom: 30px; 
+}
+
+
+
+header 
+{
+	
+	width: 70%;
+	font-size: 1.4em;
+
+}
+
+header a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Second part of the website */
+
+
+#text_wrap
+{
+	max-width: 80%;
+
+}
+
+
+h2
+{
+	position: flex;
+	text-align: center;
+	font-family: Roboto_Slab;
+	
+}
+
+
+p
+{
+	font-family: Roboto_Slab;
+	font-size: 16px;
+}
+
+/*end of the page*/
+
+footer
+{ 
+	background-color: #678c96;
+	padding: 6px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 30%;
+	min-width: 200px;
+	font-family: Roboto_slab;
+	font-size: 16 px;
+
+}
